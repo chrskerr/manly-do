@@ -2,6 +2,26 @@
 label: Event
 hide_body: true
 fields:
+- name: last_updated_at
+  type: datetime
+  label: Last Updated At
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: h:mm A ZZ
+    display_utc: false
+    export_format: YYYY-MM-DD h:mm A
+- name: last_confirmed_at
+  type: datetime
+  label: Last Confirmed At
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: h:mm A ZZ
+    display_utc: false
+    export_format: YYYY-MM-DD h:mm A
 - name: title
   type: text
   config:
