@@ -4,8 +4,8 @@ module.exports = {
 	},
 	swcMinify: true,
 	experimental: {
-		concurrentFeatures: true,
-		serverComponents: true,
+		concurrentFeatures: false,
+		serverComponents: false,
 	},
 	reactStrictMode: true,
 };
