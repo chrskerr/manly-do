@@ -63,7 +63,8 @@ fields:
     default: []
     config:
       required: true
-      options: []
+      options:
+      - holistic
       source:
         type: simple
         section: 
