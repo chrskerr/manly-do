@@ -76,46 +76,25 @@ fields:
     max: 
     labelField: 
   label: Categories
-- name: start_date
+- name: start_datetime
   type: datetime
   description: ''
   config:
     required: false
     date_format: DD/MM/YYYY
-    time_format: 
+    time_format: h:mm A ZZ
     display_utc: false
-    export_format: YYYY-MM-DD
-  label: Start date
-- name: end_date
+    export_format: YYYY-MM-DD h:mm A
+  label: Start
+- name: end_datetime
   type: datetime
-  label: End Date
-  description: Will be the same as Start Date if left blank
+  label: End
   config:
     required: false
     date_format: DD/MM/YYYY
-    time_format: 
-    display_utc: false
-    export_format: YYYY-MM-DD
-- name: start_time
-  type: datetime
-  label: Start Time
-  description: ''
-  config:
-    required: true
-    date_format: 
     time_format: h:mm A ZZ
     display_utc: false
-    export_format: h:mm A
-- name: end_time
-  type: datetime
-  label: End Time
-  description: ''
-  config:
-    required: true
-    date_format: 
-    time_format: h:mm A ZZ
-    display_utc: false
-    export_format: h:mm A
+    export_format: YYYY-MM-DD h:mm A
 - name: repeat
   type: select
   default: once
