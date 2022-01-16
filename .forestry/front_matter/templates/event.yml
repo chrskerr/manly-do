@@ -113,7 +113,7 @@ fields:
 - name: repeat_end_date
   type: datetime
   label: Repeat End Date
-  description: ''
+  description: If not set, this will repeat forever
   config:
     required: false
     date_format: DD/MM/YYYY
