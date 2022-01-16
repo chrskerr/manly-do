@@ -9,7 +9,7 @@ description: Our weekly Manly meditation class includes two guided meditations a
 event_url: https://meditateinsydney.org/manly
 address: Manly Library Meeting Room, 1 Market Place, Manly
 categories:
-- category: []
+- category: holistic
 start_date: 2022-01-15
 end_date: 
 start_time: 10:00 AM
