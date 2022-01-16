@@ -144,3 +144,5 @@ fields:
     export_format: YYYY-MM-DD
   showOnly:
     value: once
+pages:
+- content/events/meditate-in-sydney-manly.md
