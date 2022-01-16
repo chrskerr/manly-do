@@ -15,7 +15,7 @@ end_date:
 start_time: 10:00 AM
 end_time: 11:15 AM
 repeat_end_date: 
-start_datetime: 2022-01-15 10:00 AM
+start_datetime: 2022-01-15T10:00:00+11:00
 end_datetime: 2022-01-15 11:15 AM
 
 ---
