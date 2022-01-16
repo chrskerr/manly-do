@@ -10,10 +10,12 @@ event_url: https://meditateinsydney.org/manly
 address: Manly Library Meeting Room, 1 Market Place, Manly
 categories:
 - category: holistic
-start_date: 2022-01-15
+start_date: '2022-01-15'
 end_date: 
 start_time: 10:00 AM
 end_time: 11:15 AM
 repeat_end_date: 
+start_datetime: 2022-01-15 10:00 AM
+end_datetime: 2022-01-15 11:15 AM
 
 ---
