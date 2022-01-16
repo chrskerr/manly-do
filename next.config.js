@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+	images: {
+		formats: ['image/avif', 'image/webp'],
+	},
+	swcMinify: true,
+	experimental: {
+		concurrentFeatures: true,
+		serverComponents: true,
+	},
+	reactStrictMode: true,
+};
